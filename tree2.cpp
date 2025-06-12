@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 // TreeNode Structure
@@ -56,11 +56,8 @@ int diameter(TreeNode* root) {
     int lh = findHeight(root->left);
     int rh = findHeight(root->right);
 
-    // Maximum of:
-    // 1. Diameter of left subtree
-    // 2. Diameter of right subtree
-    // 3. Longest path through the root (lh + rh + 1)
-    return max(leftDiameter, max(rightDiameter, lh + rh + 1));
+    // Correct: Only one return statement
+   return max(max(leftDiameter, rightDiameter), lh + rh + 1);
 
 }
 
