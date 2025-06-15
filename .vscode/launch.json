@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "version": "2.0.0",
   "tasks": [
     {
@@ -43,3 +44,19 @@
     }
   ]
 }
+=======
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
+>>>>>>> f69454f4a3f4b5c17ea5026d82d1afb60e2b822a
